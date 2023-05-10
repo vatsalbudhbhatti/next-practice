@@ -1,16 +1,19 @@
 import React from 'react';
 import styles from './styles.module.css';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 const About = () => {
+  const router = useRouter();
   return (
     <div className={styles.container}>
       <div className={styles.banner}>
         <div className={styles.navbar}>
           <span className={styles.logo}>Samarth Ayurved</span>
           <ul>
-            <li><a href='#'>Home</a></li>
-            <li><a href='#'>Store</a></li>
-            <li><a href='#'>About</a></li>
+            <li><Link href='/'>Home</Link></li>
+            <li><Link href='#'>Store</Link></li>
+            <li><Link href='#'>About</Link></li>
           </ul>
         </div>
         <div className={styles.content}>
@@ -21,7 +24,7 @@ const About = () => {
               <span className={styles.span} />
               Join
             </button>
-            <button type="button" className={styles.button}>
+            <button type="button" className={styles.button} onClick={() => router.push('/video-background')}>
               <span className={styles.span} />
               Know more
             </button>
