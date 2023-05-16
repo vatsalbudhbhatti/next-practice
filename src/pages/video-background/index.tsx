@@ -35,7 +35,7 @@ const VideoBackground = () => {
           <div className={styles.navigationItems}>
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
-            <Link href="">Portfolio</Link>
+            <Link href="/drums">Drums</Link>
           </div>
         </div>
       </header>
