@@ -6,8 +6,9 @@ import styles from './styles.module.css';
 import video1 from './videos/1.mp4';
 import video2 from './videos/2.mp4';
 import video3 from './videos/3.mp4';
+import video4 from './videos/4.mp4';
 
-const videoArray = [video1, video2, video3];
+const videoArray = [video1, video3, video4, video2];
 
 const VideoBackground = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
