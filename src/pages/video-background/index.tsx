@@ -37,6 +37,7 @@ const VideoBackground = () => {
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/drums">Drums</Link>
+            <Link href="/clock">Clock</Link>
           </div>
         </div>
       </header>
