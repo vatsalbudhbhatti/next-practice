@@ -51,6 +51,7 @@
 }
 
 .home {
+  padding: 100px 200px;
   position: relative;
   width: 100%;
   min-height: 100vh;
