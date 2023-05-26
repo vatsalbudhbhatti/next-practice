@@ -12,7 +12,7 @@ const About = () => {
           <span className={styles.logo}>Samarth Ayurved</span>
           <ul>
             <li><Link href='/'>Home</Link></li>
-            <li><Link href='#'>Store</Link></li>
+            <li><Link href='/variables'>Variables</Link></li>
             <li><Link href='#'>About</Link></li>
           </ul>
         </div>
